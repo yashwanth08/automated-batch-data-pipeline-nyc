@@ -1,0 +1,22 @@
+# Airflow log files
+logs/
+
+# Other possible large files
+*.dump
+*.parquet
+*.csv
+
+# Python compiled file
+__pycache__/
+*.py[cod]
+*$py.class
+
+# System files
+.DS_Store
+
+# Environment Files
+.env
+
+# Credentials File
+config/*.json
+*-project*-*.json 
