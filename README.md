@@ -22,7 +22,7 @@ The image should show the workflow with tasks including:
 - upload_to_bq_from_spark
 - upload_to_bq_from_postgres 
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 - **Apache Airflow**: Workflow orchestration tool
 - **Apache Spark**: Distributed data processing engine
@@ -32,7 +32,7 @@ The image should show the workflow with tasks including:
 - **Python**: Primary programming language
 - **Grafana/Looker Studio**: Data visualization tools (optional)
 
-  ## Project Structure
+  ## 📂 Project Structure
 
 ```
 .
@@ -58,7 +58,7 @@ The image should show the workflow with tasks including:
 - Configured Google Cloud account (for BigQuery access)
 - PostgreSQL database (can be deployed via Docker)
 
-### Quick Start
+### 🚀 Quick Start
 
 1. Clone the repository
    ```bash
@@ -221,7 +221,7 @@ Additionally, we use:
 
 When the data pipeline runs automatically the next time, the mechanism for uploading new data is incremental loading. This ensures that only new or changed data is processed, improving efficiency and reducing resource consumption.
 
-## Summary
+## 📬 Summary
 
 In summary, this project covers a complete batch processing workflow from ingestion to warehouse loading. It demonstrates hands-on experience with orchestration (Airflow), distributed processing (Spark), relational storage (Postgres), cloud warehouse (BigQuery), and end-to-end pipeline design.
 
